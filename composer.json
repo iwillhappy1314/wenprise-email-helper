@@ -1,0 +1,22 @@
+{
+    "name": "wenprise/email-helper",
+    "description": "Send email from wordpress with a beautiful email template",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amos Lee",
+            "email": "iwillhappy1314@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "tijsverkoyen/css-to-inline-styles": "^2.2",
+        "wenprise/templates-helper": "^0.2.0"
+    },
+    "autoload": {
+        "files": [
+            "src/WenpriseEmailHelper.php"
+        ]
+    }
+}
