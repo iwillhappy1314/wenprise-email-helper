@@ -55,6 +55,36 @@ body {
     padding: 20px;
 }
 
+
+/* -------------------------------------
+    Real table
+------------------------------------- */
+.rs-table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    border-left: 1px solid #ebeef5;
+    border-top: 1px solid #ebeef5;
+}
+
+.rs-table th{
+    font-weight: 700;
+}
+
+.rs-table th,
+.rs-table td{
+    border-bottom: 1px solid #ebeef5;
+    border-right: 1px solid #ebeef5;
+    padding: 8px 12px;
+    min-width: 0;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    position: relative;
+    text-align: left;
+}
+
 /* -------------------------------------
     HEADER, FOOTER, MAIN
 ------------------------------------- */
